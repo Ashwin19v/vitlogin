@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.top {
+  height: 30px;
+  background-color: blue;
+  font-size: 30px;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.top img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.ash {
+  margin: auto;
+  height: 500px;
+  width: 40%;
+  border: 1px solid #fff;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.var {
+  border-top: 4px solid rgb(18, 130, 222);
+  background-color: rgb(241, 236, 236);
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 10px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.pic img {
+  width: auto;
+  height: 70px;
+}
+
+.mm {
+  text-align: center;
+}
+
+.bt {
+  background-color: blue;
+  color: aliceblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 236, 236);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.downleft {
+  font-size: 18px;
+  color: blue;
+}
+
+.downright button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.end {
+  height: 10px;
+  background-color: blue;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .ash {
+    width: 90%;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .downright button {
+    margin-top: 10px;
+  }
+
+  .top img {
+    width: 30px;
+  }
+
+  .var {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .top img {
+    margin: 10px 0;
+  }
+
+  .downright button {
+    font-size: 16px;
+  }
+
+  .downleft {
+    font-size: 16px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  .bt {
+    width: 100%;
+    margin-left: 0;
+  }
+}
