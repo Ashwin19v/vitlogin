@@ -6,7 +6,7 @@ body {
 
 .top {
   height: 30px;
-  background-color: blue;
+  background-color: rgb(15, 89, 169);
   font-size: 30px;
   padding: 1%;
   display: flex;
@@ -32,7 +32,7 @@ body {
 }
 
 .var {
-  border-top: 4px solid rgb(18, 130, 222);
+  border-top: 4px solid rgb(15, 89, 169);
   background-color: rgb(241, 236, 236);
   padding: 10px;
   font-size: 1.5em;
@@ -59,7 +59,7 @@ input[type="text"] {
 }
 
 .bt {
-  background-color: blue;
+  background-color: rgb(15, 89, 169);
   color: aliceblue;
   border: none;
   padding: 10px 20px;
@@ -80,21 +80,21 @@ input[type="text"] {
 
 .downleft {
   font-size: 18px;
-  color: blue;
+  color: rgb(15, 89, 169);
 }
 
 .downright button {
   background: none;
   border: none;
-  color: blue;
+  color: rgb(15, 89, 169);
   cursor: pointer;
   font-size: 18px;
   text-decoration: underline;
 }
 
 .end {
-  height: 10px;
-  background-color: blue;
+  height: 20px;
+  background-color: rgb(15, 89, 169);
   color: aliceblue;
   text-align: center;
   padding: 20px;
@@ -110,7 +110,6 @@ input[type="text"] {
   }
 
   .bottom {
-    flex-direction: column;
     align-items: center;
   }
 
@@ -125,14 +124,12 @@ input[type="text"] {
   .var {
     font-size: 1.2em;
   }
+  .end {
+    width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
-  .top {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .top img {
     margin: 10px 0;
   }
@@ -146,7 +143,7 @@ input[type="text"] {
   }
 
   input[type="text"] {
-    width: 100%;
+    width: 90%;
   }
 
   .bt {
